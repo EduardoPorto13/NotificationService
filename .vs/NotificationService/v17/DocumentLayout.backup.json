@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\eduardo.porto\\Downloads\\E\\Eduardo.porto\\AgendaMil\\NotificationService\\NotificationService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C77B7373-B088-4739-83E3-15690FE6024A}|src\\NotificationService.Api\\NotificationService.Api.csproj|c:\\users\\eduardo.porto\\downloads\\e\\eduardo.porto\\agendamil\\notificationservice\\notificationservice\\src\\notificationservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C77B7373-B088-4739-83E3-15690FE6024A}|src\\NotificationService.Api\\NotificationService.Api.csproj|solutionrelative:src\\notificationservice.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A2DFED5-77CD-486B-9374-8CB831A2234F}|src\\NotificationService.Application\\NotificationService.Application.csproj|c:\\users\\eduardo.porto\\downloads\\e\\eduardo.porto\\agendamil\\notificationservice\\notificationservice\\src\\notificationservice.application\\services\\messageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A2DFED5-77CD-486B-9374-8CB831A2234F}|src\\NotificationService.Application\\NotificationService.Application.csproj|solutionrelative:src\\notificationservice.application\\services\\messageprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABCDABB9-B1CC-48BE-BF69-390D1A919AAB}|tests\\NotificationService.Tests\\NotificationService.Tests.csproj|c:\\users\\eduardo.porto\\downloads\\e\\eduardo.porto\\agendamil\\notificationservice\\notificationservice\\tests\\notificationservice.tests\\integrationtests\\notificatione2etests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABCDABB9-B1CC-48BE-BF69-390D1A919AAB}|tests\\NotificationService.Tests\\NotificationService.Tests.csproj|solutionrelative:tests\\notificationservice.tests\\integrationtests\\notificatione2etests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABCDABB9-B1CC-48BE-BF69-390D1A919AAB}|tests\\NotificationService.Tests\\NotificationService.Tests.csproj|c:\\users\\eduardo.porto\\downloads\\e\\eduardo.porto\\agendamil\\notificationservice\\notificationservice\\tests\\notificationservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABCDABB9-B1CC-48BE-BF69-390D1A919AAB}|tests\\NotificationService.Tests\\NotificationService.Tests.csproj|solutionrelative:tests\\notificationservice.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\eduardo.porto\\Downloads\\E\\Eduardo.porto\\AgendaMil\\NotificationService\\NotificationService\\src\\NotificationService.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\NotificationService.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\eduardo.porto\\Downloads\\E\\Eduardo.porto\\AgendaMil\\NotificationService\\NotificationService\\src\\NotificationService.Api\\appsettings.json",
+              "RelativeToolTip": "src\\NotificationService.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-21T19:24:11.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MessageProcessor.cs",
+              "DocumentMoniker": "C:\\Users\\eduardo.porto\\Downloads\\E\\Eduardo.porto\\AgendaMil\\NotificationService\\NotificationService\\src\\NotificationService.Application\\Services\\MessageProcessor.cs",
+              "RelativeDocumentMoniker": "src\\NotificationService.Application\\Services\\MessageProcessor.cs",
+              "ToolTip": "C:\\Users\\eduardo.porto\\Downloads\\E\\Eduardo.porto\\AgendaMil\\NotificationService\\NotificationService\\src\\NotificationService.Application\\Services\\MessageProcessor.cs",
+              "RelativeToolTip": "src\\NotificationService.Application\\Services\\MessageProcessor.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAADgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T18:32:11.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NotificationE2ETests.cs",
+              "DocumentMoniker": "C:\\Users\\eduardo.porto\\Downloads\\E\\Eduardo.porto\\AgendaMil\\NotificationService\\NotificationService\\tests\\NotificationService.Tests\\IntegrationTests\\NotificationE2ETests.cs",
+              "RelativeDocumentMoniker": "tests\\NotificationService.Tests\\IntegrationTests\\NotificationE2ETests.cs",
+              "ToolTip": "C:\\Users\\eduardo.porto\\Downloads\\E\\Eduardo.porto\\AgendaMil\\NotificationService\\NotificationService\\tests\\NotificationService.Tests\\IntegrationTests\\NotificationE2ETests.cs",
+              "RelativeToolTip": "tests\\NotificationService.Tests\\IntegrationTests\\NotificationE2ETests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T18:27:37.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\eduardo.porto\\Downloads\\E\\Eduardo.porto\\AgendaMil\\NotificationService\\NotificationService\\tests\\NotificationService.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "tests\\NotificationService.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\eduardo.porto\\Downloads\\E\\Eduardo.porto\\AgendaMil\\NotificationService\\NotificationService\\tests\\NotificationService.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "tests\\NotificationService.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T18:27:36.887Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1473,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
