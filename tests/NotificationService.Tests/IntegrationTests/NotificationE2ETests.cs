@@ -33,8 +33,8 @@ public class NotificationE2ETests
         Assert.True(true);
     }
 
-    [Fact(Skip = "Teste manual de E-mail. Remova o parâmetro 'Skip' para executar.")]
-    //[Fact]
+    //[Fact(Skip = "Teste manual de E-mail. Remova o parâmetro 'Skip' para executar.")]
+    [Fact]
     public void Deve_Publicar_NotificacaoEmail_Na_Fila_RabbitMQ()
     {
         PublicarMensagem(NotificationChannel.Email, "eduporto13@gmail.com", "Teste Email RabbitMQ", "Olá! Esta é uma notificação HTML de e-mail enviada via RabbitMQ e testada no xUnit.");

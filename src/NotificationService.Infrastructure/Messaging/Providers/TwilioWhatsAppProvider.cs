@@ -10,9 +10,9 @@ namespace NotificationService.Infrastructure.Messaging.Providers;
 public class TwilioWhatsAppProvider : INotificationProvider
 {
     private readonly IAppLogger _logger;
-    // TODO: Idealmente essas chaves devem vir do IOptions<TwilioSettings> (appsettings.json)
-    private readonly string _accountSid = "MEU_SID_AQUI"; 
-    private readonly string _authToken = "MEU_TOKEN_AQUI";
+    // TODO: Idealmente essas chaves devem vir do IOptions<TwilioSettings> (appsettings.json) ou Environment Variable
+    private readonly string _accountSid = Environment.GetEnvironmentVariable("TWILIO_ACCOUNT_SID") ?? "CHAVE_REMOVIDA"; 
+    private readonly string _authToken = Environment.GetEnvironmentVariable("TWILIO_AUTH_TOKEN") ?? "CHAVE_REMOVIDA";
     // O sandbox do WhatsApp do Twilio manda com prefixo whatsapp:
     private readonly string _fromNumber = "whatsapp:+14155238886";
 

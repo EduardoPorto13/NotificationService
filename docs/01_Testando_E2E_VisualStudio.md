@@ -54,11 +54,31 @@ Vá ao painel da sua Aplicação do NotificationService que estará em execuçã
 
 Atenção: A filial de código original contém chaves de Trial estáticas do desenvolvedor principal. **Para não onerar os créditos dessa conta ou evitar erros de "unverified number"**, você deve sobrescrever as chaves localmente na sua máquina com a sua própria conta!
 
-1. **Crie uma conta gratuita:** Acesse (twilio.com), cadastre-se e valide o seu número de celular normal (pois o Twilio só enviará os SMS de testes para o número que você confirmar ser seu).
-2. **Obtenha suas Chaves:** No painel *Twilio Console*, copie o seu **Account SID** e clique em "Show" para copiar o seu **Auth Token**.
-3. **Sandbox do WhatsApp:** No menu lateral do Twilio vá em *Messaging* > *Try it out* > *Send a WhatsApp message*. Lá você encontrará um "Número Sandbox" e um código (ex: `join force-nature`). Envie uma mensagem do seu WhatsApp do próprio celular para esse número com esse código. O Twilio vai te avisar que o Sandbox está liberado para o seu celular.
-4. **Atualize o Código Local:** Vá nos arquivos `TwilioSmsProvider.cs` e `TwilioWhatsAppProvider.cs` na pasta de `Infrastructure` e cole o seu *Account SID* e *Auth Token* nas variáveis privadas. 
-5. **Teste:** Vá no `NotificationE2ETests.cs`, altere o número `+5511970823248` para o SEU número de celular recém-cadastrado e rode o teste do Visual Studio!
+### A. Criando a Conta e Validando seu Número
+1. Acesse [Twilio.com](https://www.twilio.com/) e clique em **"Sign Up"** (Criar conta gratuita).
+2. Preencha seus dados, confirme o e-mail e, em seguida, o Twilio pedirá para você **verificar um número de telefone**. Coloque o seu celular pessoal real (com DDD). 
+   *Nota: O Twilio em modo Trial (teste) só tem permissão para enviar SMS/WhatsApp para números que você tiver verificado e provado que são seus na plataforma.*
+
+### B. Obtendo as Chaves de Acesso (API Credentials)
+1. Após logar, você cairá no painel principal, o **Twilio Console**.
+2. Role a página para baixo até encontrar a seção **"Account Info"**.
+3. Copie o valor do campo **Account SID** (começa com "AC...").
+4. No campo de baixo, **Auth Token**, clique em "Show" (mostrar) e copie a senha gigante que aparecer. Guarde essas duas informações no bloco de notas.
+
+### C. Configurando o WhatsApp (Sandbox)
+O WhatsApp não permite envios diretos sem aprovação da Meta. Por isso, usamos o "Sandbox" (Caixa de Areia) do Twilio para testar livremente.
+1. No menu lateral esquerdo do Twilio, expanda **"Messaging"**.
+2. Clique em **"Try it out"** e depois selecione **"Send a WhatsApp message"**.
+3. A tela mostrará um número de telefone americano do Twilio (ex: `+1 415 523 8886`) e um código em negrito dizendo *"Join <alguma-palavra>"* (ex: `join force-nature`).
+4. **No seu WhatsApp real do celular:** Salve esse número americano na agenda e mande uma mensagem para ele com a exata frase gerada (ex: `join force-nature`).
+5. O Twilio vai responder na hora: *"Twilio Sandbox: You are all set!"*. Isso significa que seu celular e o Sandbox estão pareados por 24 horas. (Se for testar amanhã de novo, precisa mandar a frase novamente!).
+
+### D. Injetando no Código C#
+1. Abra os arquivos `TwilioSmsProvider.cs` e `TwilioWhatsAppProvider.cs` na pasta `src/NotificationService.Infrastructure/Messaging/Providers`.
+2. Substitua os valores das propriedades `_accountSid` e `_authToken` pelos seus dados copiados no Passo B.
+3. Abra a classe de testes `NotificationE2ETests.cs` na pasta de integração.
+4. Altere a string `+5511970823248` para o SEU número de celular real que você cadastrou no Passo A (não esqueça do código do país +55).
+5. Tudo pronto! Aperte F5 na API e dê o Play no teste pelo Visual Studio!
 
 ---
 
